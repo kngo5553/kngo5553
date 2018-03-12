@@ -1,13 +1,3 @@
-function showInfo(id){
-    if (id.style.display === "none") {
-        id.style.display = "block";
-    } else {
-        id.style.display = "none";
-    }
-}
-
-
-
 function openInfo(evt, infoName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
