@@ -1,0 +1,245 @@
+body {
+    background-image: url(../res/img/k.png);
+    background-color: #171e26;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: Exo2;
+    color: #cc992c;
+    font-weight:normal;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 40%;               
+    background-color:#f1f227;
+    height: 2px;
+  }
+
+a{
+    color: inherit;
+    font-family: Exo2;
+    font-size: inherit;
+    font-weight: 300;
+    text-decoration-line: inherit;
+    transition: background-color ease-out 0.5s;
+    display: inline;
+}
+
+a:hover {
+    background-color: #cc992c;
+    color: #171e26;
+}
+
+
+
+.bodyText{
+    text-align: center;
+    font-weight: normal;
+    grid-column: 1/2;
+}
+
+.bodyText2{
+    text-align: center;
+    font-weight: normal;
+    grid-column: 2/3;
+}
+
+.flex-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.grid-page{
+    display: grid;
+    grid-template: 10px 1fr 100% 10px / 1fr;
+    grid-gap: 10px;
+}
+
+h1{
+    font-family: Vollkorn;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h1.sub{
+    font-size: 32px;
+    font-size: calc(100% + 1vw);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Exo2; 
+    margin-top: 0;
+    color: #c8f7c5;
+    letter-spacing: 0;
+}
+
+.highlight{
+    color: #c8f7c5;
+}
+
+.flex-title{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.grid-title{
+    grid-row:2/3;
+}
+
+.grid-header{
+    grid-row:1/2;
+    font-weight:500;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #171e26;
+
+}
+
+.grid-body{
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+}
+
+.grid-footer{
+    grid-row: 4/5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Exo2;
+    font-weight: bold;
+    background-color: #171e26;
+}
+
+.noCursorWriter h1{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em;
+    animation: 
+      typing 3s steps(60, end);
+    animation-iteration-count:infinite;
+}
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #c8f7c5; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0; /* Adjust as needed */
+    animation: 
+      typing 1.5s steps(60, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  /* Style the tab content */
+.tabcontent {
+    display: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+.tablinks {
+    display: inline-block;
+    border-radius: 2px;
+    background-color: #cc992c;
+    border: none;
+    color: #171e26;
+    text-align: center;
+    font-size: 1em;
+  }
+
+
+.popout {
+    animation: popout 1s ease;
+    -webkit-animation: popout 1s ease;
+}
+@keyframes popout {
+    from{transform:scale(0)}
+    80%{transform:scale(1.2)}
+    to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+    from{-webkit-transform:scale(0)}
+    80%{-webkit-transform:scale(1.2)}
+    to{-webkit-transform:scale(1)}
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #c8f7c5; }
+  }
+
+
+
+  /* Pulse Shrink */
+@-webkit-keyframes hvr-pulse-shrink {
+    to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  @keyframes hvr-pulse-shrink {
+    to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  .hvr-pulse-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+  }
+  .hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+    -webkit-animation-name: hvr-pulse-shrink;
+    animation-name: hvr-pulse-shrink;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }

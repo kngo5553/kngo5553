@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Megrim;
+    src: url(../res/fonts/Megrim/Megrim.ttf);
+}
+
+@font-face {
+    font-family: FaunaOne;
+    src: url(../res/fonts/Fauna_One/FaunaOne-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Vollkorn;
+    src: url(../res/fonts/Vollkorn/Vollkorn-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Vollkorn;
+    src: url(../res/fonts/Vollkorn/Vollkorn-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Vollkorn;
+    src: url(../res/fonts/Vollkorn/Vollkorn-Black.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Vollkorn;
+    src: url(../res/fonts/Vollkorn/Vollkorn-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Vollkorn;
+    src: url(../res/fonts/Vollkorn/Vollkorn-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../res/fonts/Work_Sans/WorkSans-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../res/fonts/Work_Sans/WorkSans-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../res/fonts/Work_Sans/WorkSans-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../res/fonts/Work_Sans/WorkSans-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../res/fonts/Work_Sans/WorkSans-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../res/fonts/Work_Sans/WorkSans-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../res/fonts/Work_Sans/WorkSans-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../res/fonts/Work_Sans/WorkSans-Thin.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(../res/fonts/Work_Sans/WorkSans-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Exo2;
+    src: url(../res/fonts/Exo_2/Exo2-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Exo2;
+    src: url(../res/fonts/Exo_2/Exo2-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Exo2;
+    src: url(../res/fonts/Exo_2/Exo2-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Exo2;
+    src: url(../res/fonts/Exo_2/Exo2-Regular.ttf);
+    font-weight: normal;
+}
